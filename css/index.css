@@ -1,0 +1,91 @@
+header{
+margin-top: 75px;
+      text-align: center;}
+    html, body {
+      margin: 0;
+      padding: 0;
+      background-color:#8ECAE6;
+    }
+    nav {
+      background-color:#023047;
+      width: 100%;
+    }
+    nav ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      list-style: none;
+      margin: 0;
+      padding: 20px;
+    }
+    nav ul li {
+      color:#FB8500;
+    }
+    nav ul li a {
+      background-color:#023047;
+      padding:10px;
+      border-radius:10px;
+            cursor: pointer;
+
+    }
+    nav ul li a:hover {
+      background-color:black;
+      padding:10px;
+      border-radius:10px;
+      cursor: pointer;
+    }
+
+    .oblacek {
+      margin:100px;
+      border-radius:30px;
+      text-align:center;
+      padding:30px;
+      background-color:#219EBC;
+      margin-top:75px;
+    }
+    #naslov
+    {font-size:50px;
+      margin-right:300px;
+      margin-left:300px;
+      text-align:center;}
+
+    @media screen and (max-width:820px){
+      .oblacek {
+        margin:20px;
+        margin-top:50px;
+        text-align:left;
+      }
+      nav ul {
+        flex-direction: column;     
+        align-items: center; 
+        gap:30px;   
+        text-align:center;              
+      }
+      #naslov
+    {font-size:50px;
+      text-align:center;
+    margin-right:0px;
+      margin-left:0px;}
+    }
+    
+    #trenutnastran {
+      background-color:white;
+      cursor:default;
+    }
+
+
+a{color:#FB8500;
+text-decoration: none;}
+
+#seznam{align-items:left;
+text-align:left;}
+
+table td{ text-align: center;}
+
+table tr:first-child td{font-weight: bold;}
+
+table{width: 100%;
+  margin-top: 10px;
+  border:black solid 1px ;
+}
+

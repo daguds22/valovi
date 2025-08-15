@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Štartne liste</title>
+  <link rel="stylesheet" type="text/css" href="../css/index.css">
+  <link rel="icon" type="image/x-icon" href="../slike/images.png">
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="../index.html">Domača stran</a></li>
+      <li><a href="./discipline.html">Discipline</a></li>
+      <li><a href="./znane_osebe.html">Znane osebe</a></li>
+      <li><a  id="trenutnastran">Štartne liste</a></li>
+      <li><a href="./o_nas.html">O nas</a></li>
+    </ul>
+  </nav>
+   <header>
+    <p class="oblacek" id="naslov">
+      <b>Štartne liste</b>
+    </p>
+  </header>
+<main><div class="oblacek"><h3>Zakaj jih potrebujemo?</h3><br><br>Štartne liste so zelo pomembe, saj nam povejo kdaj in kje rabimo biti na štartu, saj če ne bi bilo štartnih list ne bi vedel kdaj plavaš ali celo kaj plavaš. Najbolj znana spletna stran za štartne liste je www.swimify.com. Tudi v sloveniji jo uporabljamo.
+<br><br><br><h3>Kako delajo?</h3><br>
+<ol id="seznam">
+<li>Organizatorji pošlejo trenerju katere discipline bodo na tekmi</li>
+<li>Trener se s tabo pogovori kaj boš plaval.</li>
+<li>Trener te prijavi.</li>
+<li>To se shrani v ogromno razpredelnico.</li>
+<li>Program to vpiše v swimify.</li>
+<li>Spletne stran naredi štarte liste.</li>
+<li>Objavijo štartne liste.</li>
+<li>Zdaj jih lahko uporabljaš na tekmi :)</li>
+</ol>
+<h4>Opozorilo!!!
+Ne uporabljat telefona medtem, ko čakaš, saj velikokrat zamudiš štart!!! >:(</h4>
+<a style="background-color:#023047; padding:5px; border-radius:10px;" href="https://cdn-eu.swimify.com/competition_files/f22084ba-39cf-4039-837f-9e3f4c786b3b/archive/4xpr2mdh1twtd_Startna_lista.pdf">Odpri primer štartne liste na swimify</a>
+
+<br><br>
+<b>Prijava na tekmovanje o plavanju!</b><br><br>
+<div>
+            Ime:<br>
+            <input type="text" name="ime" placeholder="Vpisi ime" id="ime" /><br><br>
+            Disciplina:<br>
+            <input type="text" name="disc" placeholder="Disciplina" id="disc" /><br><br>
+            <input type="button" value="Pošlji" onclick="posljiPlavalca()" />
+            <input type="button" value="Izbriši" onclick="izbrisiPlavalce()" />
+          </div>
+
+          <table id="tabelaPlavalci">
+          </table> 
+
+<p>Ko klikneš Pošlji bo to shranjeno automatsko in dano na štartne liste.</p>
+</div></main>
+<script type='text/javascript'>
+var onWebChat={ar:[], set: function(a,b){if (typeof onWebChat_==='undefined'){this.ar.
+push([a,b]);}else{onWebChat_.set(a,b);}},get:function(a){return(onWebChat_.get(a));},
+w:(function(){ var ga=document.createElement('script'); ga.type = 'text/javascript';
+ga.async=1;ga.src=('https:'==document.location.protocol?'https:':'http:') + 
+'//www.onwebchat.com/clientchat/9e8af3861d0e0e333e6afab48fa53826';var s=
+document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})()}
+</script>
+  <script src="./splet.js"></script>
+</body>
+</html
